@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cheddar - Get Started</title>
+  <link rel="icon" type="image/x-icon" href="logo.ico">
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav class="flex space-between pX-128 pY-16" id="nav">
+		<a href="/index.html">
+			<div class="flex gap-8">
+				<img src="logo.png" alt="cheddar-logo" width="75" height="75">
+			</div>
+		</a>
+
+		<div class="flex gap-32">
+
+			<a href="/index.html">About</a>
+      
+			<a href="/work/index.html">Portfolio</a>
+
+            <a href="/industries/index.html">Services</a>
+
+		</div>
+
+		<div class="flex gap-16">
+			<div class="flex gap-16 buttons">
+				<a href="/pricing/index.html" class="button secondary small">Pricing</a>
+	
+				<a href="/getStarted/index.html" class="button small">Get started</a>
+			</div>
+
+			<a class="button secondary small hamburger menu-icon-open" onclick="nav();" id="menu-icon">
+		<ion-icon name="menu-outline"></ion-icon>
+			</a>
+
+			<a class="button secondary small hamburger" onclick="nav();" id="close-icon">
+			<ion-icon name="close-outline"></ion-icon>
+			</a>
+		</div>
+	</nav>
+	<section class="landing">
+		<div class="flex col gap-32">
+			<div class="flex col gap-16 center">
+				<h1>Let's get started on your dream website.</h1>
+	
+				<p>Please fill out the form below. We will get back to you within 48 hours.</p>
+			</div>
+			<div class="form-style-5">
+				<form action="mailto:cheddarbombswebsites@gmail.com?Subject=Let's get started on your dream website!" method="post" enctype="text/plain">
+				<fieldset>
+				<legend><span class="number">1</span>Client Info</legend>
+				<input type="text" name="first_name" placeholder="Your Name *">
+				<input type="email" name="email" placeholder="Your Email *">
+				<input type="text" name="phone_number" placeholder="Your Phone Number *">
+				<input type="text" name="business_name" placeholder="Business Name *">
+				<input type="text" name="brand_slogan" placeholder="Brand Slogan *">
+				<textarea name="about_business" placeholder="Tell us more about your business *"></textarea>
+				<label for="service">Service Choice: *</label>
+				<select id="service" name="service_choice">
+				<optgroup label="Please select what service we can provide for you">
+				  <option value="ecomerce">Eccomerce</option>
+				  <option value="booking_platform">Booking Platform</option>
+				  <option value="photography_site">Photography Site</option>
+				  <option value="real_estate_website">Real Estate Website</option>
+				  <option value="mobile_app_website">Mobile App Website</option>
+				  <option value="3d_mockup">3D Mock</option>
+				  <option value="3d_mockup">Other</option>
+				</optgroup>
+				</select>
+				<label for="service">Pricing Choice: *</label>
+				<select id="service" name="pricing_choice">
+				<optgroup label="Please select the best pricing option for you">
+				  <option value="beginner">Beginner - $1,000</option>
+				  <option value="standard">Standard - $2,500</option>
+				  <option value="pro">Pro - $4,500</option>
+				</optgroup>
+				</select>          
+				</fieldset>
+				<fieldset>
+				<legend><span class="number">2</span> Additional Info</legend>
+				<textarea name="additional_comments" placeholder="Anything else we should know before we reach out"></textarea>
+				</fieldset>
+				<input style="color:black" type="submit" value="Submit" />
+				<p style="text-align: center;padding-top: 20px;color: gray;font-size: 15px;">Upon submit you will be redirected to your email provider. Please review your info and click send. </p>
+				</form>
+				</div>
+		</div>	
+
+    	</div>
+	</section>
+
+
+
+
+
+	<footer class="flex center"> 
+		<div class="flex gap-64 flex-start space-between wrap">
+			<div class="flex col space-between left gap-32">
+				<div class="flex col gap-16 left">
+					<h3>cheddarbombs.com</h3>
+					<p>We build bomb websites quickly and efficently.</p>
+				</div>
+
+				<div class="flex gap-32">
+
+					<a href="https://twitter.com/chedddarbombs">
+						<ion-icon name="logo-twitter"></ion-icon>
+					</a>
+					<a href="mailto: cheddarbombswebsites@gmail.com">
+						<ion-icon name="mail-outline"></ion-icon>
+					</a>
+
+				</div>
+			</div>
+
+			<div class="flex col left gap-16">
+				<h4>Pricing</h4>
+
+				<div class="flex col left gap-8">
+					<a href="/pricing">Beginner</a>
+
+					<a href="/pricing">Standard</a>
+
+					<a href="/pricing">Pro</a>
+				</div>
+			</div>
+
+			<div class="flex col left gap-32">
+				<div class="flex col left gap-16">
+					<h4>Resources</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="/Terms/index.html">Terms and Conditions</a>
+	
+						<a href="/Privacy/index.html">Privacy Policy</a>
+
+					</div>
+				</div>
+
+				<div class="flex col left gap-16">
+					<h4>Pages</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="/index.html">About</a>
+
+						<a href="/work/index.html">Portfolio</a>
+
+                        <a href="/industries/index.html">Services</a>
+	
+						<a href="mailto: cheddarbombswebsites@gmail.com">Contact</a>
+	
+					</div>
+				</div>
+				<p>© Cheddarbombs.com 2023</p>
+			</div>
+		</div>
+	</footer>
+	
+  <script src="./script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+

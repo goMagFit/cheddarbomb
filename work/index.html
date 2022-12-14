@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cheddar - Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="logo.ico">
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav class="flex space-between pX-128 pY-16" id="nav">
+		<a href="/index.html">
+			<div class="flex gap-8">
+				<img src="logo.png" alt="cheddar-Logo" width="75" height="75">
+			</div>
+		</a>
+
+		<div class="flex gap-32">
+			<a href="/index.html">About</a>
+      
+			<a href="/work/index.html">Portfolio</a>
+
+            <a href="/industries/index.html">Services</a>
+
+		</div>
+
+		<div class="flex gap-16">
+			<div class="flex gap-16 buttons">
+				<a href="/pricing/index.html" class="button secondary small">Pricing</a>
+	
+				<a href="/getStarted/index.html" class="button small">Get started</a>
+			</div>
+
+			<a class="button secondary small hamburger menu-icon-open" onclick="nav();" id="menu-icon">
+		<ion-icon name="menu-outline"></ion-icon>
+			</a>
+
+			<a class="button secondary small hamburger" onclick="nav();" id="close-icon">
+			<ion-icon name="close-outline"></ion-icon>
+			</a>
+		</div>
+	</nav>
+
+	<section class="companies left col" id="companies">
+		<div class="flex col left gap-32">
+			<div class="flex col left gap-16">
+				<h1>Bomb tech built by us</h1>
+
+				<p>Show off your business to the world! We want to help you showcase what your business has to offer, attract new customers and stand out from the rest.</p>
+			</div>
+
+			<a href="/getStarted/index.html" class="button">Get a free quote</a>
+		</div>
+
+		<div class="flex left wrap">
+			<div class="container flex center">
+				<a href="https://gomagfit.com"><img src="gomagfit.png" class="container flex center"></a>
+			</div>
+
+			<div class="container flex center">
+				<a href="https://slaintewellness.co"><img src="slainte.png" class="container flex center"></a>
+			</div>
+
+			<div class="container flex center">
+				<a href="https://apps.apple.com/ca/app/magfit/id1588654582"><img src="magfitapp.png" class="container flex center"></a>
+			</div>
+
+			<!-- <div class="container flex center">
+				<h4>CrossFit Myo</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit 805</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Campbell</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Willow Glen</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Almaden</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Milpitas</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Silicon Valley</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Volition</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Palo Alto</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>CrossFit Rye Canyon</h4>
+			</div>
+
+			<div class="container flex center">
+				<h4>Tech City CrossFit</h4>
+			</div> -->
+
+			<div class="container flex accent center">
+				<h4>Your website here</h4>
+			</div>
+		</div>
+	</section>
+
+	
+    <section class="cta center gap-32">
+		<div class="flex col center gap-16">
+			
+			<h2>Build your dream website.</h2>
+
+			<p>Take your business to the next level. Get started and say hello to your dream website.</p>
+		</div>
+
+		<a href="/getStarted/index.html" class="button">Get started</a>
+	</section>
+
+	<footer class="flex center"> 
+		<div class="flex gap-64 flex-start space-between wrap">
+			<div class="flex col space-between left gap-32">
+				<div class="flex col gap-16 left">
+					<h3>cheddarbombs.com</h3>
+					<p>We build bomb websites quickly and efficently.</p>
+				</div>
+
+				<div class="flex gap-32">
+
+					<a href="https://twitter.com/@chedddarbombs">
+						<ion-icon name="logo-twitter"></ion-icon>
+					</a>
+					<a href="mailto: cheddarbombswebsites@gmail.com">
+						<ion-icon name="mail-outline"></ion-icon>
+					</a>
+
+				</div>
+			</div>
+
+			<div class="flex col left gap-16">
+				<h4>Pricing</h4>
+
+				<div class="flex col left gap-8">
+					<a href="/pricing">Beginner</a>
+
+					<a href="/pricing">Standard</a>
+
+					<a href="/pricing">Pro</a>
+				</div>
+			</div>
+
+			<div class="flex col left gap-32">
+				<div class="flex col left gap-16">
+					<h4>Resources</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="/Terms/index.html">Terms and Conditions</a>
+	
+						<a href="/Privacy/index.html">Privacy Policy</a>
+
+					</div>
+				</div>
+
+				<div class="flex col left gap-16">
+					<h4>Pages</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="/index.html">About</a>
+
+						<a href="/work/index.html">Portfolio</a>
+
+                        <a href="/industries/index.html">Services</a>
+	
+						<a href="mailto: cheddarbombswebsites@gmail.com">Contact</a>
+	
+					</div>
+				</div>
+				<p>© Cheddarbombs.com 2023</p>
+			</div>
+		</div>
+	</footer>
+	
+  <script src="./script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+

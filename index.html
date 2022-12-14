@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cheddar</title>
+  <link rel="icon" type="image/x-icon" href="logo.ico">
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav class="flex space-between pX-128 pY-16" id="nav">
+		<a href="/index.html">
+			<div class="flex gap-8">
+				<img src="logo.png" alt="cheddar-logo" width="75" height="75">
+			</div>
+		</a>
+
+		<div class="flex gap-32">
+
+			<a href="/index.html">About</a>
+      
+			<a href="/work/index.html">Portfolio</a>
+
+            <a href="/industries/index.html">Services</a>
+
+		</div>
+
+		<div class="flex gap-16">
+			<div class="flex gap-16 buttons">
+				<a href="/pricing/index.html" class="button secondary small">Pricing</a>
+	
+				<a href="/getStarted/index.html" class="button small">Get started</a>
+			</div>
+
+			<a class="button secondary small hamburger menu-icon-open" onclick="nav();" id="menu-icon">
+		<ion-icon name="menu-outline"></ion-icon>
+			</a>
+
+			<a class="button secondary small hamburger" onclick="nav();" id="close-icon">
+			<ion-icon name="close-outline"></ion-icon>
+			</a>
+		</div>
+	</nav>
+
+	<section class="row feature">
+		<div class="flex left col gap-32">
+			<div class="flex left col gap-16">
+				<h1>We build bomb websites quick and efficent.</h1>
+	
+				<p>Our goal is to be the bridge bewteen brands and their customers.</p>
+			</div>
+
+			<a href="/getStarted/index.html" class="button">Build your site →</a>
+		</div>
+	
+		<div class="containerMain image feature">
+            <video src="./images/movie.mp4" alt="cheddar" class="containerMain image feature" autoplay loop></video>
+         </div>
+	</section>
+
+	<section class="features center higher" id="productivity">
+		<div class="flex col gap-16 center">
+			<h2>No more cheesy websites.</h2>
+
+			<p>All of our sites are built specifically for our customers.</p>
+		</div>
+
+		<div class="flex wrap gap-32">
+			<div class="flex left col container bounce gap-16 p-32">
+				<div class="flex center container small highest p-8">
+					<ion-icon name="flash-outline" role="img" class="md hydrated" aria-label="flash outline"></ion-icon>
+				</div>
+
+				<div class="flex left col gap-8">
+					<h4 style="color:orange;">Quick turn-around</h4>
+		
+					<p style="color:white;" >We like to go from idea to final product in 1-2 weeks.</p>
+				</div>
+			</div>
+
+			<div class="flex left col container bounce gap-16 p-32">
+				<div class="flex center container small highest p-8">
+					<ion-icon name="pricetag-outline" role="img" class="md hydrated" aria-label="pricetag outline"></ion-icon>
+				</div>
+
+				<div class="flex left col gap-8">
+					<h4 style="color:orange;">Low-cost pricing</h4>
+		
+					<p style="color:white;">We offer cost efficent pricing that benifits both parties.</p>
+				</div>
+			</div>
+
+			<div class="flex left col container bounce gap-16 p-32">
+				<div class="flex center container small highest p-8">
+					<ion-icon name="skull-outline" role="img" class="md hydrated" aria-label="skull-outline"></ion-icon>
+				</div>
+
+				<div class="flex left col gap-8">
+					<h4 style="color:orange;">No more headaches </h4>
+		
+					<p style="color:white;">We deal with everything it takes to standout online.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="row feature alt">
+		<div class="flex left col gap-32">
+			<div class="flex left col gap-16">
+				<h2>Custom websites</h2>
+	
+				<p>With our team of expert web developers,your business will be presented online the way that it deserves.</p>
+			</div>
+		</div>
+	
+				<div class="container image feature">
+					<video src="./images/MagFit.mp4" alt="gomagfit.com" class="container image feature" autoplay loop></video>
+    </div>
+	</section>
+
+	<section class="row feature">
+		<div class="flex left col gap-32">
+			<div class="flex left col gap-16">
+				<h2>Custom Media</h2>
+	
+				<p>With our in-house photography and graphic desgin, your brand will finally get the exposure it deserves.</p>
+			</div>
+		</div>
+	
+		<div class="container image feature">
+			<img src="./images/photo.png" alt="cheddar" class="container image feature">
+    </div>
+	</section>
+
+
+	<!-- <section class="row feature alt">
+		<div class="flex left col gap-32">
+			<div class="flex left col gap-16">
+				<h2>Video and Photography</h2>
+	
+				<p>It is very obvious when brands use stock images and videos. With our in-house photography and video, your brand will finally get the exposure it deserves.</p>
+			</div>
+		</div>
+	
+		<div class="container image feature">
+            <img src="./images/photo.png" alt="cheddar" class="container image feature">
+        </div>
+	</section> -->
+
+
+
+	<section class="cta center gap-32">
+		<div class="flex col center gap-16">
+			
+			<h2>Build your dream website.</h2>
+
+			<p>Take your business to the next level. Get started and say hello to your dream website.</p>
+		</div>
+
+		<a href="/getStarted/index.html"  class="button">Get started</a>
+	</section>
+
+	<footer class="flex center"> 
+		<div class="flex gap-64 flex-start space-between wrap">
+			<div class="flex col space-between left gap-32">
+				<div class="flex col gap-16 left">
+					<h3>cheddarbombs.com</h3>
+					<p>We build bomb websites quickly and efficently.</p>
+				</div>
+
+				<div class="flex gap-32">
+
+					<a href="https://twitter.com/chedddarbombs">
+						<ion-icon name="logo-twitter"></ion-icon>
+					</a>
+					<a href="mailto: cheddarbombswebsites@gmail.com">
+						<ion-icon name="mail-outline"></ion-icon>
+					</a>
+
+				</div>
+			</div>
+
+			<div class="flex col left gap-16">
+				<h4>Pricing</h4>
+
+				<div class="flex col left gap-8">
+					<a href="/pricing">Beginner</a>
+
+					<a href="/pricing">Standard</a>
+
+					<a href="/pricing">Pro</a>
+				</div>
+			</div>
+
+			<div class="flex col left gap-32">
+				<div class="flex col left gap-16">
+					<h4>Resources</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="/Terms/index.html">Terms and Conditions</a>
+	
+						<a href="/Privacy/index.html">Privacy Policy</a>
+
+					</div>
+				</div>
+
+				<div class="flex col left gap-16">
+					<h4>Pages</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="/index.html">About</a>
+
+						<a href="/work/index.html">Portfolio</a>
+
+                        <a href="/industries/index.html">Services</a>
+	
+						<a href="mailto: cheddarbombswebsites@gmail.com">Contact</a>
+	
+					</div>
+				</div>
+				<p>© Cheddarbombs.com 2023</p>
+			</div>
+		</div>
+	</footer>
+	
+  <script src="./script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
